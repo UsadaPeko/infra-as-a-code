@@ -2,12 +2,5 @@ version: 3
 automerge: true
 delete_source_branch_on_merge: true
 projects:
-- name: my-project-name
-  dir: .
-  workspace: default
-  terraform_version: v0.11.0
-  delete_source_branch_on_merge: true
-  autoplan:
-    when_modified: ["*.tf"]
-    enabled: true
+- dir: .
   apply_requirements: [mergeable, approved]
