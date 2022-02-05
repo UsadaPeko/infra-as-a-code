@@ -4,6 +4,6 @@ resource "aws_instance" "backstage_server" {
   key_name = "pekora-main-key"
 
   tags = {
-    Name = "UsakenBackstage"
+    Name = "UsakenBackstageEC2"
   }
 }
