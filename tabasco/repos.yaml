@@ -1,3 +1,0 @@
-repos:
-- id: github.com/UsadaPeko/insta-as-a-code
-  apply_requirements: [approved mergeable]
