@@ -14,6 +14,6 @@ resource "aws_instance" "test" {
   key_name = "pekora-main-key"
 
   tags = {
-    Name = "test"
+    Name = "test1"
   }
 }
