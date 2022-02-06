@@ -5,7 +5,14 @@ terraform {
       version = "~> 3.27"
     }
   }
+  backend "remote" {
+    hostname = "app.terraform.io"
+    organization = "UsadaConstruction"
 
+    workspaces {
+      name = "infra-as-a-code"
+    }
+  }
   required_version = ">= 0.14.9"
 }
 
